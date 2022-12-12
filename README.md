@@ -16,4 +16,4 @@ set.seed(2020)
 mod1 <- Mclust(data, G=7, "EEE")
 ad$obs["mclust"] <- mod1$classification
 write_h5ad(ad, "/home/xding14/projects/def-junding/xding14/gvae_model/adata_GVAE_train05_mclust.h5ad")
-'''
+```
